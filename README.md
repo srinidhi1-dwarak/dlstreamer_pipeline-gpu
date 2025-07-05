@@ -57,7 +57,7 @@ Test Scope & Achievements
 
 Author:Srinidhi  
 
-Achieving 95.4% performance consistency across 6 concurrent AI inference streams — where engineering excellence meets real-world impact.
+Achieving 95.4% performance consistency across 6 concurrent AI inference streams 
 
 Feel free to clone, study, and extend this optimization framework for your own Intel projects
 
