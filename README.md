@@ -18,6 +18,7 @@ Operating System:
 c)Ubuntu 22.04 LTS or more
 
 Software:
+
 d)Docker Engine 20.10+
 
 e)Intel GPU drivers 
