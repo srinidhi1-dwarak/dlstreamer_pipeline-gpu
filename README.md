@@ -5,12 +5,28 @@
 This project demonstrates  optimization of multi-stream AI inference pipelines using Intel DL Streamer framework,on Intel Iris Xe Graphics hardware.
 
 Objective
-With the exponential growth of AI-powered surveillance and edge computing applications, understanding the limits of Intel integrated graphics for concurrent video analytics is crucial. This project pushes the boundaries of Intel Iris Xe Graphics by implementing highly optimized multi-stream pipelines that achieve 95.4% performance consistency across 6 concurrent AI inference streams.
+With the exponential growth of AI-powered surveillance and edge computing applications, understanding the limits of Intel integrated graphics is crucial.This project implements highly optimized multi-stream pipelines upto 6 streams on Intel Iris Xe Graphics.
+
+Prerequisites
+Hardware:
+a)Intel Iris Xe Graphics (TigerLake GT2) or compatible Intel GPU
+b)8GB+ RAM
+
+Operating System:
+c)Ubuntu 22.04 LTS or more
+
+Software:
+d)Docker Engine 20.10+
+e)Intel GPU drivers 
+f)X11 server (for visual output)
+
+g)Intel DL Streamer Docker image
+h)OpenVINO Runtime 2023.0+ 
 
 Pipeline Details
 
-Base Framework: Intel DL Streamer, GStreamer, OpenVINO Runtime  
-Target Hardware: Intel Iris Xe Graphics (TigerLake GT2)
+-Base Framework: Intel DL Streamer, GStreamer, OpenVINO Runtime  
+-Target Hardware: Intel Iris Xe Graphics (TigerLake GT2)
 
 Optimized Pipeline:
 - gvadetect — Advanced person and vehicle detection with batch processing
@@ -35,29 +51,15 @@ Advanced Optimization Techniques
 
 Project Structure
 
-Pipeline Scripts: Automated single-stream, 2-stream, and 6-stream configurations  
-Performance Monitoring: Real-time GPU utilization tracking with intel_gpu_top  
-Results Analysis: Comprehensive FPS logging, consistency metrics, and bottleneck analysis  
-Visualization: Performance charts showing throughput, consistency, and resource utilization  
+i)Pipeline Scripts: Automated single-stream, 2-stream, and 6-stream configurations  
+ii)Performance Monitoring: Real-time GPU utilization tracking with intel_gpu_top  
+iii)Results Analysis: Comprehensive FPS logging, consistency metrics, and bottleneck analysis  
+iv)Visualization: Performance charts showing throughput, consistency, and resource utilization  
 
-Test Scope & Achievements
-
-✅ Single-stream baseline performance establishment  
-✅ Multi-stream scaling (2, 4, 6 streams) with optimization  
-
-✅ Resource Analysis:
-   - High GPU utilization on Intel Iris Xe Graphics
-   - Optimal memory bandwidth usage
-   - Thermal management within 28W TDP
-
-✅ Bottleneck Identification:
-   - GPU Execution Unit saturation at 6+ streams
-   - Memory bandwidth optimization opportunities
-   - Thermal constraints analysis
 
 Author:Srinidhi  
 
 Achieving 95.4% performance consistency across 6 concurrent AI inference streams 
 
-Feel free to clone, study, and extend this optimization framework for your own Intel projects
+Feel free to clone, study, and use this framework for your own Intel projects
 
