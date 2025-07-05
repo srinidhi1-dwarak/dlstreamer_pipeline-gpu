@@ -10,17 +10,22 @@ With the exponential growth of AI-powered surveillance and edge computing applic
 Prerequisites
 Hardware:
 a)Intel Iris Xe Graphics (TigerLake GT2) or compatible Intel GPU
+
 b)8GB+ RAM
 
 Operating System:
+
 c)Ubuntu 22.04 LTS or more
 
 Software:
 d)Docker Engine 20.10+
+
 e)Intel GPU drivers 
+
 f)X11 server (for visual output)
 
 g)Intel DL Streamer Docker image
+
 h)OpenVINO Runtime 2023.0+ 
 
 Pipeline Details
