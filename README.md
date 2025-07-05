@@ -57,10 +57,10 @@ Advanced Optimization Techniques
 
 Project Structure
 
-i)Pipeline Scripts: Automated single-stream, 2-stream, and 6-stream configurations  
-ii)Performance Monitoring: Real-time GPU utilization tracking with intel_gpu_top  
-iii)Results Analysis: Comprehensive FPS logging, consistency metrics, and bottleneck analysis  
-iv)Visualization: Performance charts showing throughput, consistency, and resource utilization  
+i) Pipeline Scripts: Automated single-stream, 2-stream, and 6-stream configurations  
+ii) Performance Monitoring: Real-time GPU utilization tracking with intel_gpu_top  
+iii) Results Analysis: Comprehensive FPS logging, consistency metrics, and bottleneck analysis  
+iv) Visualization: Performance charts showing throughput, consistency, and resource utilization  
 
 
 Author:Srinidhi  
