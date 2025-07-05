@@ -1,51 +1,3 @@
- Intel Unnati Project: Multi-Stream AI Pipeline Requirements
-
-# System Requirements for Intel Unnati Project
-
-## Hardware Requirements
-- Intel Iris Xe Graphics (TigerLake GT2) or compatible Intel GPU
-- 8GB+ RAM
-- Ubuntu 22.04 LTS or compatible Linux distribution
-
-## Software Requirements
-- Docker Engine 20.10+
-- X11 server (for visual output)
-- Intel GPU drivers
-- OpenVINO Runtime 2023.0+
-
-## Docker Base Image
-intel/dlstreamer:latest
-
-## Models Required
-- person-vehicle-bike-detection-crossroad-0078 (OpenVINO Model Zoo)
-- person-attributes-recognition-crossroad-0230 (OpenVINO Model Zoo)
-
-## Performance Monitoring Tools
-- intel_gpu_top (Intel GPU Tools)
-- System resource monitoring capabilities
-
-
-# Docker Container Requirements (installed via apt)
-# These are installed inside the intel/dlstreamer:latest container
-
-# System packages (installed via apt)
-intel-gpu-tools
-psmisc
-nano
-imagemagick
-python3-pip
-gstreamer1.0-tools
-gstreamer1.0-plugins-base
-gstreamer1.0-plugins-good
-gstreamer1.0-plugins-bad
-gstreamer1.0-plugins-ugly
-
-# Python packages for analysis
-matplotlib
-seaborn
-numpy
-
-
 
 # Core OpenVINO and AI Framework
 openvino-dev[onnx,tensorflow,pytorch]>=2023.0.0
@@ -57,7 +9,7 @@ seaborn>=0.11.0
 numpy>=1.21.0
 pandas>=1.3.0
 
-# System Monitoring (if running natively)
+# System Monitoring 
 psutil>=5.8.0
 GPUtil>=1.4.0
 
